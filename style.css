@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: sans-serif;
+}
+
+.f-item {
+    border: solid thin black;
+    padding: 6px;
+    margin-bottom: 4px;
+}
+
+.state-icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: solid thin black;
+    background-color: green;
+}

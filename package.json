@@ -1,0 +1,26 @@
+{
+  "name": "chootest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "budo -p $PORT -H $IP --css style.css index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "budo": "^8.3.0",
+    "bulkify": "^1.2.0",
+    "envify": "^3.4.0",
+    "es2020": "^1.1.4",
+    "uglifyify": "^3.0.1",
+    "unassertify": "^2.0.3",
+    "uglifyjs": "^2.4.10"
+  },
+  "dependencies": {
+    "choo": "^2.1.6",
+    "sheetify": "^5.0.1"
+  }
+}
